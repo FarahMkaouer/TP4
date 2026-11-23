@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+}
+
+body{
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    color:black;
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background-color: rgb(179, 154, 124);
+    width:1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+.img_center{
+    text-align: center;
+}
+header h1{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 40px;
+    color:black;
+    font-style: italic;
+}
+#img_iit {
+    width: 100%;
+}
+
+nav {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+    width: 100px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+nav a:hover,
+nav a#menu_actuel {
+    background-color: rgb(228, 200, 166);
+}
+main{
+    font-family:Arial, Helvetica, sans-serif sans-serif;
+    font-size: 16px;
+    color:black;
+    font-weight: normal;
+    font-style: normal;
+    width: 1000px;
+    background-color: rgb(228, 200, 166);
+    margin: 0 auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+article{
+    width:60%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:red;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    font-weight: bold;
+    font-style: italic;
+}
+ main p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:black;
+    font-weight: normal;
+    font-style: normal;
+    text-indent: 20px;
+}
+    
+.img_article{
+    float:right;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+input[type="text"],
+input[type="date"],
+select {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+.tableau {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    border-collapse: collapse;
+}
+
+.tableau td {
+    border: 2px solid white;
+}
+.tableau th{
+    background-color: rgb(179 154 124);
+    text-align: center;
+}
+.moyenne_generale{
+    text-align:right;
+}
+.moyenne{
+    text-align:center;
+}
+.galerie{
+    margin:3px;
+    border: 10px solid white;
+    box-shadow: 5px 10px 5px black;
+}
+footer{
+    width:1000px;
+    background-color: rgb(179 154 124);
+    margin:0 auto;
+    font-family: "Times New Roman", serif;
+    font-size:10px;
+    color:black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+@media screen and (max-width: 999px) {
+    body {
+        background-color: black;
+    }
+
+    header,
+    main,
+    footer {
+        width: 100%;
+        background-color: black;
+    }
+
+    header h1,
+    main p,
+    nav a,
+    footer p {
+        color: white;
+    }
+}
